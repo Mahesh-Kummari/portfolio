@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahesh Kummari</title>
+    <link rel="icon" href="./images/fav-icon-logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/46c135c7b1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-zinc-900 text-white">
+    <header class="relative z-50">
+      <div
+        class="flex justify-around top-0 bg-zinc-700 py-4 px-10 w-full fixed rounded-b-md md:rounded-b-none"
+      >
+        <h1 class="text-lg font-bold">Mahesh</h1>
+        <div class="menu-nav-items flex flex-col">
+          <button
+            id="menu-toggle"
+            class="ml-11 md:hidden text-white focus:outline-none"
+          >
+            <i id="menu-icon" class="fa-solid fa-bars text-xl"></i>
+          </button>
+          <nav
+            id="nav-menu"
+            class="hidden md:flex items-end text-right space-x-3"
+          >
+            <ul class="my-2 md:m-0 md:flex md:space-x-6">
+              <li>
+                <a href="#home" class="hover:text-gray-300 font-medium">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="hover:text-gray-300 font-medium"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a href="#skills" class="hover:text-gray-300 font-medium"
+                  >Skills</a
+                >
+              </li>
+              <li>
+                <a href="#projects" class="hover:text-gray-300 font-medium"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="hover:text-gray-300 font-medium"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section
+      id="home"
+      class="mt-16 flex flex-col md:flex-row justify-center items-center p-10 min-h-screen"
+    >
+      <div class="md:w-1/2 text-center">
+        <p class="text-xl mb-5 pl-1">Hello, I am</p>
+        <h3 class="text-5xl text-cyan-600 font-bold mb-5">Mahesh Kummari</h3>
+        <h3 class="text-2xl font-semibold text-zinc-300 mb-5 pl-1">
+          A Full Stack Web Developer
+        </h3>
+        <div class="icons flex justify-center gap-8">
+          <div
+            class="h-14 w-14 rounded-full border-cyan-600 border-2 text-3xl overflow-hidden"
+          >
+            <a
+              href="https://www.linkedin.com/in/mahesh-kummari/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin p-3 text-cyan-600"></i>
+            </a>
+          </div>
+          <div
+            class="h-14 w-14 rounded-full border-cyan-600 border-2 text-3xl overflow-hidden"
+          >
+            <a href="https://github.com/Mahesh-Kummari" target="_blank">
+              <i class="fa-brands fa-github p-3 text-cyan-600"></i>
+            </a>
+          </div>
+          <div
+            class="h-14 w-14 rounded-full border-cyan-600 border-2 text-3xl overflow-hidden"
+          >
+            <a href="mailto:maheshkummari7111@gmail.com" target="_blank">
+              <i class="fa-solid fa-envelope p-3 text-cyan-600"></i>
+            </a>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <a
+            href="./Mahesh_Kummari_IT_Resume.pdf"
+            download="Mahesh_Kummari_IT_Resume.pdf"
+            class="text-white my-8 block w-max bg-cyan-600 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            >Download Resume</a
+          >
+        </div>
+      </div>
+      <div
+        class="image-container w-full mt-8 md:m-0 md:w-1/3 overflow-hidden border rounded-full aspect-square bg-cover bg-center"
+        style="background-image: url(./images/picture-3-logo.jpg)"
+      ></div>
+    </section>
+
+    <section id="about" class="bg-slate-900 p-10 md:p-32">
+      <h2 class="text-center text-3xl font-bold mb-9">
+        About <span class="text-cyan-600">Me</span>
+      </h2>
+      <p class="text-xl">
+        I’m a Full Stack Developer with a strong foundation in HTML, CSS,
+        JavaScript, Bootstrap, Python, Django, SQL, Node.js, Express.js and
+        React.js . I’m passionate about using these skills to develop innovative
+        web applications that are user-friendly.
+        <br />
+        <br />
+        I’m always eager to learn more about web development and marketing. I
+        enjoy the challenge of coding and solving real-world problems.
+        Currently, I’m looking for opportunities to join a team that values
+        innovation and shares my enthusiasm for technology.
+      </p>
+    </section>
+
+    <section
+      id="skills"
+      class="p-10 md:p-20 min-h-screen flex flex-col justify-center"
+    >
+      <h2 class="text-center text-3xl font-bold mb-9">
+        Technical <span class="text-cyan-600">Skills</span>
+      </h2>
+      <div class="skills flex justify-center flex-wrap">
+        <img
+          class="w-36 m-5 rounded-xl hover:border-4 border-slate-700 aspect-square"
+          src="./images/html5.webp"
+          alt="html5"
+        />
+        <img
+          class="w-36 m-5 rounded-xl hover:border-4 border-slate-700 aspect-square"
+          src="./images/css3.webp"
+          alt="css3"
+        />
+        <img
+          class="w-36 m-5 rounded-xl hover:border-4 border-slate-700 aspect-square"
+          src="./images/javaScript.webp"
+          alt="javaScript"
+        />
+        <img
+          class="w-36 m-5 rounded-xl hover:border-4 border-slate-700 aspect-square"
+          src="./images/nodejs.webp"
+          alt="nodejs"
+        />
+        <img
+          class="w-36 m-5 rounded-xl hover:border-4 border-slate-700 aspect-square"
+          src="./images/expressjs.webp"
+          alt="expressjs"
+        />
+        <img
+          class="w-36 m-5 rounded-xl hover:border-4 border-slate-700 aspect-square"
+          src="./images/reactjs.webp"
+          alt="reactjs"
+        />
+        <img
+          class="w-36 m-5 rounded-xl hover:border-4 border-slate-700 aspect-square"
+          src="./images/python.webp"
+          alt="python"
+        />
+      </div>
+    </section>
+
+    <section id="projects" class="bg-slate-900 p-10 min-h-screen">
+      <h2 class="text-center text-3xl font-bold mb-10">
+        My <span class="text-cyan-600">Projects</span>
+      </h2>
+      <div class="projects flex justify-center flex-wrap gap-10">
+        <div
+          id="veggiebazzae-card"
+          class="project-card veggieBazaar w-[400px] h-[300px] relative overflow-hidden rounded-xl"
+        >
+          <img
+            class="w-full h-full"
+            src="./images/veggie_bazaar.webp"
+            alt=""
+            srcset=""
+          />
+          <div class="content p-5">
+            <h3 class="text-center text-black font-bold mb-4">VeggieBazaar</h3>
+            <p>
+              Veggie Bazaar: React site for veg products. Node.js, Express,
+              SQLite backend. Smooth browsing, cart, secure checkout for
+              health-conscious shoppers.
+            </p>
+            <a
+              href="https://veggiebazaar.vercel.app/"
+              target="_blank"
+              class="text-center block mt-4 text-blue-900"
+              ><i
+                class="fa-solid fa-arrow-up-right-from-square my-auto text-xl"
+              ></i
+            ></a>
+          </div>
+        </div>
+        <div
+          class="project-card veggieBazaar w-[400px] h-[300px] relative overflow-hidden rounded-xl"
+        >
+          <img
+            class="w-full h-full"
+            src="./images/todo app.png"
+            alt=""
+            srcset=""
+          />
+          <div class="content p-5">
+            <h3 class="text-center text-black font-bold mb-4">Todo App</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
+              dicta quod, expedita a obcaecati quae suscipit quasi beatae? Porro
+              alias tenetur ea sunt delectus numquam perferendis vel debitis
+              obcaecati. Quos.
+            </p>
+            <a
+              href="https://kmaheshtodo.ccbp.tech/"
+              target="_blank"
+              class="text-center block mt-4 text-blue-900"
+              ><i
+                class="fa-solid fa-arrow-up-right-from-square my-auto text-xl"
+              ></i
+            ></a>
+          </div>
+        </div>
+        <div
+          class="project-card veggieBazaar w-[400px] h-[300px] relative overflow-hidden rounded-xl"
+        >
+          <img
+            class="w-full h-full"
+            src="./images/random joke generator.png"
+            alt=""
+            srcset=""
+          />
+          <div class="content p-5">
+            <h3 class="text-center text-black font-bold mb-4">
+              Random Joke Generator
+            </h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
+              dicta quod, expedita a obcaecati quae suscipit quasi beatae? Porro
+              alias tenetur ea sunt delectus numquam perferendis vel debitis
+              obcaecati. Quos.
+            </p>
+            <a
+              href="https://mahesh-kummari.github.io/randomJokeGenerator/"
+              target="_blank"
+              class="text-center block mt-4 text-blue-900"
+              ><i
+                class="fa-solid fa-arrow-up-right-from-square my-auto text-xl"
+              ></i
+            ></a>
+          </div>
+        </div>
+        <div
+          class="project-card veggieBazaar w-[400px] h-[300px] relative overflow-hidden rounded-xl"
+        >
+          <img
+            class="w-full h-full"
+            src="./images/tip calculator.png"
+            alt=""
+            srcset=""
+          />
+          <div class="content p-5">
+            <h3 class="text-center text-black font-bold mb-4">
+              Tip Calculator
+            </h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
+              dicta quod, expedita a obcaecati quae suscipit quasi beatae? Porro
+              alias tenetur ea sunt delectus numquam perferendis vel debitis
+              obcaecati. Quos.
+            </p>
+            <a
+              href="https://mahesh-kummari.github.io/Tip-Calculator/"
+              target="_blank"
+              class="text-center block mt-4 text-blue-900"
+              ><i
+                class="fa-solid fa-arrow-up-right-from-square my-auto text-xl"
+              ></i
+            ></a>
+          </div>
+        </div>
+        <div
+          class="project-card veggieBazaar w-[400px] h-[300px] relative overflow-hidden rounded-xl"
+        >
+          <img
+            class="w-full h-full"
+            src="./images/wikipedia search application.png"
+            alt=""
+            srcset=""
+          />
+          <div class="content p-5">
+            <h3 class="text-center text-black font-bold mb-4">
+              Wikipedia Search Application
+            </h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
+              dicta quod, expedita a obcaecati quae suscipit quasi beatae? Porro
+              alias tenetur ea sunt delectus numquam perferendis vel debitis
+              obcaecati. Quos.
+            </p>
+            <a
+              href="https://kmaheshwikiapp.ccbp.tech/"
+              target="_blank"
+              class="text-center block mt-4 text-blue-900"
+              ><i
+                class="fa-solid fa-arrow-up-right-from-square my-auto text-xl"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="min-h-screen p-10">
+      <h2 class="text-center text-3xl font-bold">
+        Contact <span class="text-cyan-600">Me</span>
+      </h2>
+      <div class="flex flex-col md:flex-row justify-around items-start mt-10">
+        <div class="space-y-2 text-xl md:mt-8">
+          <p>
+            <strong>Name: </strong><span class="text-lg">Mahesh Kummari</span>
+          </p>
+          <p>
+            <strong>Email: </strong
+            ><a class="text-cyan-600" href="mailto:maheshkummari7111@gmail.com"
+              >maheshkummari7111@gmail.com</a
+            >
+          </p>
+          <p>
+            <strong>Mobile: </strong
+            ><a class="text-cyan-600" href="tel:+91 9949767111"
+              >+91 9949767111</a
+            >
+          </p>
+          <p>
+            <strong>linkedin: </strong
+            ><a
+              class="text-cyan-600"
+              href="https://www.linkedin.com/in/mahesh-kummari/"
+              target="_blank"
+              >https://www.linkedin.com/in/mahesh-kummari/</a
+            >
+          </p>
+          <p>
+            Anything is else ? Fill this
+            <strong class="text-cyan-600">Form</strong>
+          </p>
+        </div>
+
+        <form
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          class="flex flex-col items-center justify-center text-black"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="22b83da9-82f3-42a8-88c0-e180a528f0ef"
+          />
+          <br />
+          <div>
+            <input
+              type="text"
+              name="name"
+              required
+              placeholder="Enter your name"
+              class="px-6 py-3 m-2 rounded-md outline-none"
+            />
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="Enter your email"
+              class="px-6 py-3 m-2 rounded-md outline-none"
+            />
+          </div>
+          <div>
+            <input
+              type="number"
+              name="Mobile"
+              required
+              placeholder="Enter your number"
+              class="px-6 py-3 m-2 rounded-md outline-none"
+            />
+            <input
+              type="text"
+              name="subject"
+              required
+              placeholder="Enter your Subject"
+              class="px-6 py-3 m-2 rounded-md outline-none"
+            />
+          </div>
+
+          <textarea
+            name="message"
+            required
+            rows="8"
+            placeholder="Enter your message"
+            class="px-6 w-full py-3 m-2 rounded-md outline-none"
+          ></textarea>
+
+          <div class="h-captcha mt-1" data-captcha="true"></div>
+
+          <button
+            type="submit"
+            class="text-white mt-3 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+          >
+            Submit Form
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section
+      id="QuickLinks"
+      class="bg-slate-900 p-10 flex flex-col space-y-5 md:flex-row justify-around items-center"
+    >
+      <p>Copyright &copy 2024 by @Mahesh-Kummari | All Rights Reserved.</p>
+      <div class="icons flex justify-center gap-8 p-5">
+        <div
+          class="h-14 w-14 rounded-full border-cyan-600 border-2 text-3xl overflow-hidden"
+        >
+          <a href="https://www.linkedin.com/in/mahesh-kummari/" target="_blank">
+            <i class="fa-brands fa-linkedin p-3 text-cyan-600"></i>
+          </a>
+        </div>
+        <div
+          class="h-14 w-14 rounded-full border-cyan-600 border-2 text-3xl overflow-hidden"
+        >
+          <a href="https://github.com/Mahesh-Kummari" target="_blank">
+            <i class="fa-brands fa-github p-3 text-cyan-600"></i>
+          </a>
+        </div>
+        <div
+          class="h-14 w-14 rounded-full border-cyan-600 border-2 text-3xl overflow-hidden"
+        >
+          <a href="mailto:maheshkummari7111@gmail.com" target="_blank">
+            <i class="fa-solid fa-envelope p-3 text-cyan-600"></i>
+          </a>
+        </div>
+        <div
+          class="h-14 w-14 rounded-full border-cyan-600 border-2 text-3xl overflow-hidden"
+        >
+          <a href="https://wa.me/9949767111" target="_blank">
+            <i class="fa-brands fa-whatsapp p-3 text-cyan-600"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <a
+      href="#home"
+      class="arrow-up fixed right-2 bottom-2 p-5 bg-green-600 rounded-full hover:bg-gray-700 cursor-pointer"
+    >
+      <i class="fa-solid fa-angles-up"></i>
+    </a>
+
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

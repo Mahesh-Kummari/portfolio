@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima&family=Fasthand&family=Kalam&family=Noto+Serif:ital@0;1&family=Open+Sans:ital@0;1&family=Prompt:ital@0;1&family=Roboto+Slab&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap");
+/*
+font-family: 'Agdasima', sans-serif;
+font-family: 'Fasthand', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+/* * {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+} */
+.project-card:hover .content {
+  position: absolute;
+  top: 0px;
+  left: auto;
+  height: 100%;
+}
+/* .project-card {
+  transition: all 1s ease reverse;
+} */
+.content {
+  height: 0px;
+  overflow: hidden;
+  background-color: darkgrey;
+  transition: all 1s ease;
+}
